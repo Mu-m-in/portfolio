@@ -1,19 +1,71 @@
-# Mumin Tariq: portfolio (Next.js 15, App Router, TypeScript, Tailwind v4)
+# Mumin Tariq — Developer Portfolio
 
-    npm install
-    npm run dev          # http://localhost:3000
-    npm run typecheck && npm run lint && npm run build
+A personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS to showcase my projects, technical skills, and approach to software engineering.
 
-## Edit your content (all in src/data/)
-- profile.ts: name, links, email (set `emailConfigured: true`), resume (`resumeAvailable: true`), siteUrl
-- projects.ts: repo/demo URLs, status (`awaiting-deployment` | `live` | `in-progress`), stack, bullets
-- skills.ts: skill groups and the "How I build" items
+**Live Website:** https://mumin-portfolio.vercel.app
 
-## Resume
-Put the PDF at `public/resume/Mumin_Tariq_Resume.pdf`, then set `resumeAvailable: true`. Until then the button links to LinkedIn.
+## Features
 
-## Screenshots
-Previews in `src/components/ui/ProjectPreview.tsx` are illustrative. To use real screenshots, add images to `public/images/` and replace the preview component with `next/image` (keep meaningful alt text).
+- Responsive, dark-themed portfolio design
+- Project showcase with technology stacks and engineering highlights
+- Skills and technical expertise sections
+- Professional profile and social links
+- Reusable, data-driven React components
+- Optimized production build using Next.js
 
-## Deploy
-Push to GitHub, import the repo on Vercel (or Netlify), and set `siteUrl` in profile.ts to the final URL.
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **UI:** React 19
+- **Styling:** Tailwind CSS 4
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/Mu-m-in/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+Open http://localhost:3000 in your browser.
+
+### Production Build
+
+```bash
+npm run typecheck
+npm run lint
+npm run build
+```
+
+## Project Structure
+
+```text
+src/
+├── app/                  # App Router and global styles
+├── components/
+│   ├── layout/           # Navbar and footer
+│   ├── sections/         # Portfolio sections
+│   └── ui/               # Reusable UI components
+└── data/                 # Profile, projects, and skills
+
+public/                   # Static assets
+```
+
+## Customization
+
+Update the files in `src/data/` to edit profile details, social links, projects, and skills. See the existing README instructions for resume configuration and project preview images.
+
+## Deployment
+
+The portfolio is deployed on Vercel and connected to GitHub for production deployments from the `main` branch.
