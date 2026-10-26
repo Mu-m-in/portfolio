@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   description,
   openGraph: { title, description, type: "website", url: profile.siteUrl, siteName: profile.name },
   twitter: { card: "summary", title, description },
+verification: {
+  google: "LKGtYs9XW3l86iWSwW14w4NHyQ4v2L3SQPCdlVs-brg",
+},
 };
 export const viewport: Viewport = { themeColor: "#0a0b0f" };
 
