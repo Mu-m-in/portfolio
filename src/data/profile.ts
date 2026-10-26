@@ -15,8 +15,8 @@ export const profile = {
 
   resumePath: "/resume/Mumin_Tariq_Resume.pdf",
   resumeAvailable: false,
-  // TODO: your deployed portfolio URL (used for metadata and Open Graph)
-  siteUrl: "https://your-portfolio.vercel.app",
+  // TODO: deployed portfolio URL (for metadata and Open Graph)
+  siteUrl: "https://mumin-portfolio.vercel.app",
 };
 
 export const resumeHref = profile.resumeAvailable ? profile.resumePath : profile.linkedin;

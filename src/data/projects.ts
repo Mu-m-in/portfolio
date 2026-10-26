@@ -1,4 +1,4 @@
-// Edit URLs and status here. Set demoUrl to a string once deployed; the card updates itself.
+
 export type ProjectStatus = "awaiting-deployment" | "live" | "in-progress";
 
 export interface Project {
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     category: "Full-stack fintech, trading simulator",
     summary:
       "EquityFlow lets users simulate stock trading with virtual funds while keeping their portfolios and trading activity separate by account.",
-    // TODO: confirm against the repo's package.json files
+    
     stack: ["React", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Alpha Vantage API"],
     engineering: [
       "Implemented cookie-based JWT authentication using an HttpOnly session cookie.",
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     category: "Full-stack web, property platform",
     summary:
       "Explorica is a web application for browsing property listings, exploring property details, and searching for relevant listings through a responsive interface backed by its own API and database.",
-    // TODO: verify this stack and these bullets against the Explorica repo before publishing
+    
     stack: ["JavaScript", "Node.js", "Express", "MongoDB"],
     engineering: [
       "Property listing workflow, from browsing to individual listing details.",
