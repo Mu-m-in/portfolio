@@ -1,4 +1,3 @@
-// Add, remove or reorder freely. Only list what you can discuss in an interview.
 export const skillGroups: { title: string; note?: string; items: string[] }[] =
   [
     { title: "Languages", items: ["JavaScript", "Python", "Java", "C++", "C"] },
@@ -25,7 +24,6 @@ export const skillGroups: { title: string; note?: string; items: string[] }[] =
       title: "Tools",
       items: ["Git", "GitHub", "npm", "Environment-based configuration"],
     },
-    // TODO: add LangChain, LangGraph or deployment platforms only once you have used them.
   ];
 
 export const approach = [
