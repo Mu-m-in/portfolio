@@ -1,4 +1,4 @@
-# Mumin Tariq — Developer Portfolio
+# Mumin Tariq - Developer Portfolio
 
 A personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS to showcase my projects, technical skills, and approach to software engineering.
 
