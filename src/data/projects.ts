@@ -43,7 +43,7 @@ export const projects: Project[] = [
     name: "Explorica",
     category: "Full-stack web, property platform",
     summary:
-      "Explorica is a full-stack property rental platform that lets users discover properties, explore detailed listings, and submit booking requests. It features user authentication, property management, reviews, and cloud-based image uploads.",
+      "Explorica is a full-stack property rental platform that lets users discover properties, explore detailed listings, and submit booking requests.",
     
     stack: ["JavaScript", "Node.js", "Express", "MongoDB"],
     engineering: [
