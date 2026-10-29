@@ -9,7 +9,7 @@ export interface Project {
   stack: string[];
   engineering: string[];
   repoUrl: string;
-  demoUrl: string | null; // TODO: add live URL after deployment
+  demoUrl: string | null;
   status: ProjectStatus;
   previewImage?: string;
 }
@@ -35,21 +35,21 @@ export const projects: Project[] = [
       "Integrated market-data retrieval with caching and handling for external API rate limits.",
     ],
     repoUrl: "https://github.com/Mu-m-in/EquityFlow",
-    demoUrl: null,
-    status: "awaiting-deployment",
+    demoUrl: "https://equity-floww.vercel.app",
+    status: "live",
   },
   {
     id: "explorica",
     name: "Explorica",
     category: "Full-stack web, property platform",
     summary:
-      "Explorica is a web application for browsing property listings, exploring property details, and searching for relevant listings through a responsive interface backed by its own API and database.",
+      "Explorica is a full-stack property rental platform that lets users discover properties, explore detailed listings, and submit booking requests. It features user authentication, property management, reviews, and cloud-based image uploads.",
     
     stack: ["JavaScript", "Node.js", "Express", "MongoDB"],
     engineering: [
-      "Property listing workflow, from browsing to individual listing details.",
-      "Backend API and database layer behind the interface.",
-      "Responsive layout for browsing on phones and desktops.",
+      "Built a property rental platform with listing and booking request features.",
+      "Implemented authentication, property management, and reviews using MongoDB.",
+      "Integrated Cloudinary for image uploads and built a responsive UI with EJS and Bootstrap.",
     ],
     repoUrl: "https://github.com/Mu-m-in/explorica",
     demoUrl: "https://explorica.onrender.com",
